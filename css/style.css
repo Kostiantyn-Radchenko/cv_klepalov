@@ -1,0 +1,91 @@
+/* 
+--accent-color:;#757575;
+--title-color:#2a2a2a;
+--hover-color:#2196f3;
+--contacts-footer-color: rgb(255, 255, 255, 0.6);
+
+*/
+:root {
+  --accent-color: #757575;
+  --title-color: #2a2a2a;
+  --hover-color: #2196f3;
+  --contacts-footer-color: rgb(255, 255, 255, 0.6);
+  --company-link-color: #0f0096;
+  --company-hover-color: #c04903;
+}
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--accent-color);
+}
+/* header section */
+.header li {
+  list-style-type: none;
+}
+/* site-nav section */
+.site-nav .link {
+  color: var(--title-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--hover-color);
+}
+/* contacts link */
+.contacts .link {
+  color: var(--accent-color);
+}
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--hover-color);
+}
+/* main section */
+
+/* hero section */
+.hero > .title {
+  color: var(--title-color);
+}
+
+/* experiens section */
+.experiens-list > li {
+  list-style-type: none;
+}
+
+.experiens .title {
+  color: var(--title-color);
+}
+.experiens .subtitle {
+  color: var(--title-color);
+}
+/* experiens link */
+.experiens .link {
+  color: var(--company-link-color);
+}
+.experiens .link:hover,
+.experiens .link:focus {
+  color: var(--company-hover-color);
+}
+.subtitle-list > li {
+  list-style-type: disc;
+  color: var(--title-color);
+}
+.subtitle-list .text {
+  color: var(--accent-color);
+}
+/* footer section */
+.footer .title {
+  color: var(--title-color);
+}
+/*footer contacts link */
+.footer .link {
+  color: var(--accent-color);
+}
+.footer .link:hover,
+.footer .link:focus {
+  color: var(--hover-color);
+}
+.footer li {
+  list-style-type: none;
+}
