@@ -19,6 +19,11 @@ a {
 
 body {
   font-family: 'Roboto', sans-serif;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
   color: var(--accent-color);
 }
 /* header section */
@@ -27,6 +32,8 @@ body {
 }
 /* site-nav section */
 .site-nav .link {
+  font-weight: 500;
+  letter-spacing: 0.02em;
   color: var(--title-color);
 }
 .site-nav .link:hover,
@@ -35,6 +42,8 @@ body {
 }
 /* contacts link */
 .contacts .link {
+  font-weight: 500;
+  letter-spacing: 0.02em;
   color: var(--accent-color);
 }
 .contacts .link:hover,
@@ -45,6 +54,10 @@ body {
 
 /* hero section */
 .hero > .title {
+  font-weight: 900;
+  font-size: 35px;
+  line-height: 1.5;
+  letter-spacing: 0.06em;
   color: var(--title-color);
 }
 
@@ -54,13 +67,22 @@ body {
 }
 
 .experiens .title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.5;
   color: var(--title-color);
 }
 .experiens .subtitle {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.5;
   color: var(--title-color);
 }
 /* experiens link */
 .experiens .link {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.5;
   color: var(--company-link-color);
 }
 .experiens .link:hover,
@@ -72,14 +94,24 @@ body {
   color: var(--title-color);
 }
 .subtitle-list .text {
+  font-size: 14px;
+  letter-spacing: 0.01em;
   color: var(--accent-color);
+}
+.text .indicator {
+  font-weight: 700;
 }
 /* footer section */
 .footer .title {
   color: var(--title-color);
 }
 /*footer contacts link */
+.footer {
+  background-color: orange;
+}
 .footer .link {
+  font-weight: 500;
+  letter-spacing: 0.02em;
   color: var(--accent-color);
 }
 .footer .link:hover,
@@ -88,4 +120,11 @@ body {
 }
 .footer li {
   list-style-type: none;
+}
+.socials {
+  color: var(--title-color);
+}
+.socials:hover,
+.socials:focus {
+  color: #ffffff;
 }
