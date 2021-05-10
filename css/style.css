@@ -79,6 +79,9 @@ body {
   color: var(--title-color);
 }
 /* experiens link */
+.experiens a {
+  text-decoration: underline;
+}
 .experiens .link {
   font-weight: 700;
   font-size: 30px;
