@@ -12,6 +12,7 @@
   --contacts-footer-color: rgb(255, 255, 255, 0.6);
   --company-link-color: #0f0096;
   --company-hover-color: #c04903;
+  --lite-color: #ffffff;
 }
 /* tag configuration */
 li {
@@ -230,12 +231,20 @@ body {
 }
 /*footer contacts link */
 .footer {
-  background-color: orange;
+  background-color: rgba(90, 90, 90, 0.39);
+}
+.footer .container {
+  display: flex;
+  align-items: center;
 }
 .footer .link {
-  font-weight: 500;
+  display: flex;
+  font-weight: 700;
   letter-spacing: 0.02em;
   color: var(--accent-color);
+}
+.footer-item:not(:last-child) {
+  margin-bottom: 15px;
 }
 .footer .link:hover,
 .footer .link:focus {
@@ -245,9 +254,38 @@ body {
   list-style-type: none;
 }
 .socials {
-  color: var(--title-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: var(--title-color);
+  border-radius: 50%;
+  color: var(--lite-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
 }
 .socials:hover,
 .socials:focus {
-  color: #ffffff;
+  box-shadow: none;
+  background-color: var(--lite-color);
+  color: var(--hover-color);
+}
+.social-item:not(:last-child) {
+  margin-right: 20px;
+}
+.social-link {
+  margin-left: 30px;
+  text-align: center;
+}
+.social-link .title {
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+.social-list {
+  display: flex;
+}
+.social-icon {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
 }
