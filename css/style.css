@@ -242,12 +242,14 @@ body {
   font-weight: 700;
   letter-spacing: 0.02em;
   color: var(--accent-color);
+  transition: transform 700ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-item:not(:last-child) {
   margin-bottom: 15px;
 }
 .footer .link:hover,
 .footer .link:focus {
+  transform: perspective(200px) rotateY(360deg);
   color: var(--hover-color);
 }
 .footer li {
@@ -263,9 +265,12 @@ body {
   border-radius: 50%;
   color: var(--lite-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+
+  transition: transform 700ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .socials:hover,
 .socials:focus {
+  transform: perspective(200px) rotateY(360deg);
   box-shadow: none;
   background-color: var(--lite-color);
   color: var(--hover-color);
